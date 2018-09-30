@@ -6,9 +6,10 @@
     <p2>A minimal arch-based distribution with gnome desktop!</p2>
 </h1>
 
-# [Aseman.OS](https://asemanos.gitlab.io/)
-Features:
+## Description
+A minimal arch-based distribution with gnome desktop! [Aseman.OS](https://asemanos.gitlab.io/)
 
+## Features
 * Linux Lts embeded.
 * Tor installed already.
 * terminal-based installer called abif
