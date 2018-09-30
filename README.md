@@ -3,7 +3,7 @@
 	<img width="400" src="assets/AsemanOs.svg" alt="AsemanOs">
 	<br>
 	<br>
-    <p2>A minimal arch-based distribution with gnome desktop!</p2>
+    <p2>Aseman Os!</p2>
 </h1>
 
 ## Description
