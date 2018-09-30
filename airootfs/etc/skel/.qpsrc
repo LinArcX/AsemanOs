@@ -1,0 +1,27 @@
+[General]
+field=PID, PGID, USER, TTY, VSIZE, %CPU, MEM, STAT, START, TIME, COMMAND_LINE
+flags=ExitOnClose, infobar, ctrlbar, statbar, autosave, cpubar, loadgraph, loadicon, selectpids, hostname, service
+interval=1000
+version=40
+viewproc=0
+
+[commands]
+size=0
+
+[font]
+name=Sans
+size=9
+
+[geometry]
+height=459
+visiable=true
+width=1298
+x=6
+y=131
+
+[sort]
+field=MEM
+reversed=false
+
+[watchdog]
+size=0

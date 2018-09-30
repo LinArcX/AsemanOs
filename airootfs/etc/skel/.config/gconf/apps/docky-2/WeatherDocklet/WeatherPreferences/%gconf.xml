@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="Metric" mtime="1518992560" type="bool" value="true"/>
+	<entry name="Timeout" mtime="1518992560" type="int" value="5"/>
+	<entry name="Location" mtime="1518992554" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>Tehran, Iran</stringvalue>
+		</li>
+	</entry>
+</gconf>

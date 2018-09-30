@@ -1,0 +1,17 @@
+{
+    "name" : "Html Page",
+    "description" : "New empty html document",
+    "defaultName" : "HtmlPage.html",
+    "sortOrder" : "100",
+    "category" : "Html",
+    "iconLight" : "HTMLFile_Light.svg",
+    "iconDark" : "HTMLFile_Dark.svg",
+    "elements" : [
+        {
+            "fileName" : "file.html",
+            "targetName" : "$itemname$.html",
+            "replaceParameters" : true,
+            "open" : true
+        }
+    ]
+}

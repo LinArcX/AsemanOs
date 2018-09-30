@@ -1,0 +1,176 @@
+{
+	"name": "vscode-unit-test",
+	"displayName": "Unit Test Explorer",
+	"description": "Unit Test IDE for vscode",
+	"version": "0.3.1",
+	"publisher": "gfrancischini",
+	"icon": "resources/icon/testingicon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gfrancischini/vscode-unit-test"
+	},
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onView:unit.test.explorer.vsTestTree"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "unit.test.execution.runSelected",
+				"title": "Run Selected Test",
+				"icon": "resources/light/play_button.svg"
+			},
+			{
+				"command": "unit.test.execution.debugSelected",
+				"title": "Debug Selected Test",
+				"icon": "resources/light/play_button.svg"
+			},
+			{
+				"command": "unit.test.execution.runAll",
+				"title": "Run All Tests",
+				"icon": "resources/light/play_all_button.svg"
+			},
+			{
+				"command": "unit.test.execution.debugAll",
+				"title": "Debug All Tests",
+				"icon": "resources/light/play_all_button.svg"
+			},
+			{
+				"command": "unit.test.execution.stop",
+				"title": "Stop Running Tests"
+			},
+			{
+				"command": "unit.test.explorer.open",
+				"title": "Open Test"
+			},
+			{
+				"command": "unit.test.explorer.openTestResult",
+				"title": "Open Selected Test Result"
+			},
+			{
+				"command": "unit.test.explorer.refresh",
+				"title": "Refresh Test Explorer"
+			},
+			{
+				"command": "unit.test.explorer.groupBy",
+				"title": "Group Test By",
+				"icon": "resources/light/group.svg"
+			},
+			{
+				"command": "unit.test.explorer.initialize",
+				"title": "Initialize Test Explorer"
+			},
+			{
+				"command": "unit.test.explorer.restart",
+				"title": "Restart Test Explorer"
+			}
+		],
+		"views": {
+			"explorer": [
+				{
+					"id": "unit.test.explorer.vsTestTree",
+					"name": "Test Explorer"
+				}
+			]
+		},
+		"menus": {
+			"view/title": [
+				{
+					"command": "unit.test.execution.runSelected",
+					"when": "view == unit.test.explorer.vsTestTree1",
+					"group": "navigation"
+				},
+				{
+					"command": "unit.test.explorer.groupBy",
+					"when": "view == unit.test.explorer.vsTestTree",
+					"group": "navigation"
+				},
+				{
+					"command": "unit.test.execution.runAll",
+					"when": "view == unit.test.explorer.vsTestTree",
+					"group": "hidden"
+				},
+				{
+					"command": "unit.test.execution.debugAll",
+					"when": "view == unit.test.explorer.vsTestTree",
+					"group": "hidden"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "unit.test.execution.runSelected"
+				},
+				{
+					"command": "unit.test.execution.debugSelected"
+				},
+				{
+					"command": "unit.test.explorer.open"
+				}
+			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "Unit Test Configuration",
+			"properties": {
+				"unit.test.provider": {
+					"type": "string",
+					"default": "mocha",
+					"description": "Define the current provider used for this workspace"
+				},
+				"unit.test.watchInterval": {
+					"type": "number",
+					"default": 3000,
+					"description": "Define the minimum amount of time required before dispatch a file change message"
+				},
+				"unit.test.enableCodeLens": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable the code lens provider for run|debug tests"
+				},
+				"unit.test.enable": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable the unit test plugin"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"vscode": "^1.1.6",
+		"@types/node": "^7.0.43",
+		"@types/mocha": "^2.2.42",
+		"@types/chai": "^4.1.2",
+		"chai": "^4.1.2",
+		"ts-node": "^5.0.0"
+	},
+	"dependencies": {
+		"amd-loader": "0.0.8",
+		"fs.extra": "^1.3.2",
+		"glob": "^7.1.1",
+		"mocha": "^5.0.1",
+		"portfinder": "^1.0.13",
+		"throttle-debounce": "^1.0.1",
+		"typescript": "^2.6.1",
+		"typescript-collections": "^1.2.3",
+		"uuid": "^3.2.1",
+		"vscode-jsonrpc": "^3.5.0"
+	},
+	"__metadata": {
+		"id": "dccf8ba9-29bc-4b00-9930-73185557dd73",
+		"publisherId": "72734084-cc9d-4456-9c3a-3f6c5ecc4b70",
+		"publisherDisplayName": "Gabriel Parelli Francischini"
+	}
+}

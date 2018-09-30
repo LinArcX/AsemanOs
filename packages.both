@@ -1,0 +1,403 @@
+############### Gnome ###############
+gnome-shell
+gnome-backgrounds
+gnome-color-manager
+gnome-control-center
+
+# Font-Viewer               
+gnome-font-viewer
+
+gnome-getting-started-docs
+gnome-keyring
+gnome-menus
+
+# ScreenCapture   
+gnome-screenshot
+
+gnome-settings-daemon
+gnome-shell-extensions
+gnome-themes-extra
+gnome-video-effects
+gnome-tweaks
+file-roller
+
+# Totla = 15
+
+############### CORE ###############
+autoconf
+automake
+bash
+binutils
+bison
+bzip2
+coreutils
+cryptsetup
+device-mapper
+dhcpcd
+dialog
+diffutils
+e2fsprogs
+fakeroot
+file
+filesystem
+findutils
+flex
+gawk
+gcc
+gcc-libs
+gettext
+glibc
+grep
+groff
+grub
+gzip
+inetutils
+iproute2
+iputils
+iw
+jfsutils
+less
+libtool
+licenses
+linux-lts
+linux-lts-headers
+logrotate
+lvm2
+m4
+make
+man-db
+man-pages
+mdadm
+mlocate
+net-tools
+netctl
+openssh
+pacman
+patch
+pciutils
+perl
+pkgconf
+procps-ng
+psmisc
+reiserfsprogs
+sed
+shadow
+sudo
+sysfsutils
+systemd
+systemd-sysvcompat
+tar
+texinfo
+usbutils
+util-linux
+which
+xfsprogs
+# Totla = 68
+
+############### EXTRA ###############
+arch-install-scripts
+alsa-oss
+alsa-utils
+bash-completion
+
+# Configure-Tools
+dconf-editor    
+
+# BitTorrent-Client
+deluge
+
+# PDF-Viewer
+ebook-tools
+
+# Browser       
+firefox
+
+# Source-Control
+git
+
+# PartitionManager
+gparted
+
+gperf
+gst-libav
+gst-plugins-good
+gst-plugins-ugly
+gvfs-mtp
+imagemagick
+intltool
+jdk8-openjdk
+
+# Charachter-Viewer
+kcharselect
+
+# Image-Manipulation
+kolourpaint
+
+# Log-Utility
+ksystemlog
+
+# Office
+libreoffice-fresh
+
+libmad
+libmtp
+libva-intel-driver
+mesa-demos
+mesa-vdpau
+networkmanager
+ntfs-3g
+
+# PDF-Viewer
+okular
+
+p7zip
+pavucontrol
+pygtk
+python-pip
+python2-gobject2
+python2-pip
+python2-requests
+python2-urllib3
+rsync
+ruby
+
+# Display-Manager
+sddm
+
+geany
+tk
+ttf-bitstream-vera
+
+# Terminal-Text-Editor
+vim
+x264
+
+# Video Drivers
+xf86-video-ati
+xf86-video-intel
+xf86-video-nouveau
+
+# Xorg's Pkgs
+xorg-iceauth
+xorg-luit
+xorg-server
+xorg-server-common
+xorg-sessreg
+xorg-smproxy
+xorg-x11perf
+xorg-xbacklight
+xorg-xcmsdb
+xorg-xcursorgen
+xorg-xdpyinfo
+xorg-xev
+xorg-xgamma
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xkbevd
+xorg-xkbutils
+xorg-xkill
+xorg-xlsatoms
+xorg-xlsclients
+xorg-xpr
+xorg-xprop
+xorg-xrefresh
+xorg-xsetroot
+xorg-xvinfo
+xorg-xwd
+xorg-xwininfo
+xorg-xwud
+xterm
+
+## Shell
+zsh
+
+# Total = 79, Optioanl = 13
+
+
+############### COMMUNITY ###############
+## ISO-Utility
+acetoneiso2
+
+android-file-transfer
+android-tools
+android-udev
+
+arc-solid-gtk-theme
+arm
+awesome-terminal-fonts
+deepin-gtk-theme
+
+## Music-Player
+deepin-music
+
+## Terminal
+deepin-terminal
+
+## Dock-App
+docky
+
+## Dictionary
+goldendict
+
+libva-utils
+libvdpau-va-gl
+lxrandr-gtk3
+
+## Video-Player
+mpv
+
+mtpfs
+nemo-fileroller
+os-prober
+pacman-contrib
+papirus-icon-theme
+polipo
+privoxy
+screenfetch
+
+## ImageViewer
+shotwell
+
+# Calculator
+speedcrunch
+
+## Terminal-Multiplexer
+tmux
+
+## Anonymous-Tools(Proxy)
+tor
+torsocks
+
+ttf-liberation
+ttf-ubuntu-font-family
+vdpauinfo
+xdelta3
+xdotool
+
+## Download-Manager
+youtube-dl
+
+# Total = 35, Optioanl = 12
+
+
+############### MULTILIB ###############
+lib32-bzip2
+lib32-libstdc++5
+lib32-ncurses
+lib32-zlib
+# Total = 4
+
+
+############### AUR ###############
+## System-Monitor
+gnulium-git
+jcal-git
+
+## Finder
+fsearch-git
+
+## Gnome Extensions
+gnome-shell-extension-show-desktop-button
+gnome-shell-extension-suspend-button-git
+gnome-shell-extension-lockkeys-git
+gnome-shell-extension-persian-calendar-git
+gnome-shell-extension-topicons-plus-git
+
+## Archive-Manager
+nemo-peazip
+
+osx-arc-shadow
+osx-arc-white
+
+## Archive-Manager
+peazip-gtk2-portable
+
+## Download-Manager
+persepolis-git
+
+prezto-git
+ttf-mac-fonts
+# Total = 14
+
+
+############### ARCHLINUXCN ###############
+## ClipBoard-Manager
+copyq
+
+gstreamer0.10
+gstreamer0.10-base
+gstreamer0.10-base-plugins
+obfs4proxy
+
+## View Packages
+pkgbrowser
+
+## NoteTools
+qownnotes
+
+## System-Monitor
+qps
+rar
+
+## Aur-Helper
+trizen
+
+## Text-Editor
+visual-studio-code-bin
+
+## ScreenRecorder
+vokoscreen-git
+
+## Log-Utility
+i-nex-git
+
+# Total = 13, Optioanl = 5
+
+############### AsemanRepo ###############
+# obfsproxy
+# Total = 1
+
+############### Optioanl ###############
+## Office
+# wps-office
+
+## IDE's
+# android-studio
+
+## Browser
+# google-chrome
+
+## Vector-Tools
+# inkscape
+
+## 3D-Modeling-And-Animation
+# blender
+
+## Messanger
+# telegram-desktop
+
+## Remote-Desktop
+# anydesk
+
+## Android-Emulator
+# genymotion
+
+## IRC-Client
+# konversation
+
+## DB's
+# mariadb
+
+## System-Information
+# kinfocenter
+
+# vocal
+
+############### Statistics ###############
+# 229 Main Applications
+# 27 Optional Applications
+# 991 Packages
+
+############### List Of All Packages ###############
+# https://github.com/LinArcX/Blogit/blob/master/OS/Arch/ElideApps/ElideApps.md

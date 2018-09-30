@@ -1,0 +1,39 @@
+[
+	{
+		"name": "Blogit",
+		"rootPath": "/mnt/D/Document/WorkSpace/Other/Blogit",
+		"paths": [],
+		"group": "github"
+	},
+	{
+		"name": "FirstKotlin",
+		"rootPath": "/mnt/D/Document/WorkSpace/Kotlin/FirstTry",
+		"paths": [],
+		"group": "Test"
+	},
+	{
+		"name": "MyBlog",
+		"rootPath": "/mnt/D/Document/WorkSpace/PHP/MyBlog",
+		"paths": [],
+		"group": "PHP"
+	},
+	{
+		"name": "MyAssembly",
+		"rootPath": "/mnt/D/Document/WorkSpace/Assembly/MyAssembly",
+		"paths": [],
+		"group": "Assembly"
+	},
+	{
+		"name": "casino-ethereum",
+		"rootPath": "/mnt/D/Document/WorkSpace/Daap/casino-ethereum",
+		"paths": [],
+		"group": "Daaps"
+	}
+	,
+	{
+		"name": "GtkTest",
+		"rootPath": "/mnt/D/Document/WorkSpace/Gnome/GtkTest",
+		"paths": [],
+		"group": "Gtk"
+	}
+]

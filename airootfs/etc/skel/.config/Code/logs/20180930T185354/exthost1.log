@@ -1,0 +1,24 @@
+[2018-09-30 18:53:57.140] [exthost1] [info] extension host started
+[2018-09-30 18:53:57.165] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:53:57.165] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-09-30 18:53:57.173] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:53:57.173] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2018-09-30 18:53:57.221] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:53:57.221] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2018-09-30 18:53:57.409] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:53:57.409] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/out/extension
+[2018-09-30 18:53:57.421] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:53:57.421] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/search-rg/out/extension
+[2018-09-30 18:53:57.427] [exthost1] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:53:57.427] [exthost1] [info] ExtensionService#loadCommonJSModule /home/linarcx/.vscode/extensions/alefragnani.project-manager-9.0.1/out/src/extension
+[2018-09-30 18:53:57.445] [exthost1] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:53:57.445] [exthost1] [info] ExtensionService#loadCommonJSModule /home/linarcx/.vscode/extensions/equinusocio.vsc-material-theme-2.4.2/extensions/material.theme.config.js
+[2018-09-30 18:53:57.459] [exthost1] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:53:57.459] [exthost1] [info] ExtensionService#loadCommonJSModule /home/linarcx/.vscode/extensions/hookyqr.beautify-1.4.4/extension
+[2018-09-30 18:53:57.506] [exthost1] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:53:57.506] [exthost1] [info] ExtensionService#loadCommonJSModule /home/linarcx/.vscode/extensions/pkief.material-icon-theme-3.6.0/out/src/extension
+[2018-09-30 18:53:57.548] [exthost1] [info] eager extensions activated
+[2018-09-30 18:53:57.571] [exthost1] [info] ExtensionService#_doActivateExtension austin.code-gnu-global {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2018-09-30 18:53:57.571] [exthost1] [info] ExtensionService#loadCommonJSModule /home/linarcx/.vscode/extensions/austin.code-gnu-global-0.2.2/out/src/extension
+[2018-09-30 18:53:57.595] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2018-09-30 18:53:57.595] [exthost1] [info] ExtensionService#loadCommonJSModule /home/linarcx/.vscode/extensions/ms-vscode.cpptools-0.19.0/out/src/main

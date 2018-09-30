@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <script src="##EXTENSIONPATH##/webviews/lib/jquery/jquery.min.js"></script>
+        <script src="##EXTENSIONPATH##/webviews/lib/jquery-ui/jquery-ui.min.js"></script>
+        <script src="##EXTENSIONPATH##/webviews/templateselector/js/templateselector.js"></script>
+        <link rel="stylesheet" type="text/css" href="##EXTENSIONPATH##/webviews/lib/jquery-ui/jquery-ui.min.css">
+        <link rel="stylesheet" type="text/css" href="##EXTENSIONPATH##/webviews/templateselector/css/templateselector.css">
+    </header>
+    <body>
+        <div id="main">
+            <div id="header" class="header">
+                <div id="title">New project item</div>
+            </div>
+
+            <div id="wizard" class="wizard">
+                <div id="content">
+                    <div id="categories" tabindex="0" onkeydown="templateSel.catKeyPress(event)"></div>
+                    <div id="templates" tabindex="0" onkeydown="templateSel.tmpKeyPress(event)"></div>
+                    <div id="description"></div>
+                </div>
+
+                <div class="inputarea">
+                    <div class="inputrow">
+                        <div class="fldcaption">Name:</div>
+                        <div class="fldval"><input type="text" id="inpName" name="inpName" onkeydown="templateSel.inpKeyPress(event)"></div>
+                    </div>
+                    <div class="inputrow" id="locationrow">
+                        <div class="fldcaption">Location:</div>
+                        <div class="fldval">
+                            <input type="text" id="inpLocation" name="inpLocation" onkeydown="templateSel.inpKeyPress(event)">
+                            <button id="selLocBtn" class="button" style="margin:0,0,0,5px;" onclick="templateSel.browseLocation()">Browse</button>
+                        </div>
+                    </div>
+
+                    <div class="inputrow" id="makedirrow">
+                        <div class="fldcaption"></div>
+                        <div class="fldopt">
+                            <input class="checkbox" checked="checked" type="checkbox" id="mkdir" name="mkdir">
+                            <label class="label" for="mkdir">Create directory for project</label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="footer">
+                <button id="finishBtn" class="button" onclick="templateSel.okClick()">OK</button>
+                <button id="cancelBtn" class="button" onclick="templateSel.cancelClick()">Cancel</button>
+            </div>
+        </div>
+
+    </body>
+</html>

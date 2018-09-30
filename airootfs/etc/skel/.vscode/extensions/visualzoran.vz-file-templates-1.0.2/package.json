@@ -1,0 +1,124 @@
+{
+	"name": "vz-file-templates",
+	"displayName": "VZ File Templates",
+	"description": "Create new project files from templates in a visual way just like in the big Visual Studio",
+	"version": "1.0.2",
+	"publisher": "visualzoran",
+	"engines": {
+		"vscode": "^1.26.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"author": {
+		"name": "Visual Zoran",
+		"url": "https://visualzoran.wordpress.com/"
+	},
+	"repository": {
+		"url": "https://github.com/visualzoran/vz-file-templates"
+	},
+	"license": "MIT",
+	"keywords": [
+		"templates",
+		"file"
+	],
+	"activationEvents": [
+		"onCommand:vzfiletemplates.newFile",
+		"onCommand:vzfiletemplates.newProject"
+	],
+	"icon": "resources/vzfiletemplates.png",
+	"main": "./out/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "vzfiletemplates.newFile",
+				"title": "New File from Template",
+				"category": "VZ File Templates"
+			},
+			{
+				"command": "vzfiletemplates.newProject",
+				"title": "New Project from Template",
+				"category": "VZ File Templates"
+			}
+		],
+		"menus": {
+			"explorer/context": [
+				{
+					"command": "vzfiletemplates.newFile",
+					"group": "navigation"
+				}
+			]
+		},
+		"jsonValidation": [
+			{
+				"fileMatch": "template.json",
+				"url": "./resources/templateSchema.json"
+			}
+		],
+		"configuration": [
+			{
+				"title": "VZ File Templates",
+				"properties": {
+					"vzfiletemplates.langServerProxyFolder": {
+						"type": "string",
+						"default": ".langserverproxy",
+						"description": "Folder for temporary files used to discover workspace symbols."
+					},
+					"vzfiletemplates.userTemplatesFolders": {
+						"type": "array",
+						"items": {
+							"type": "string",
+							"default": "",
+							"description": "Path to user defined file templates folder."
+						},
+						"default": [],
+						"description": "List of paths to user defined file templates folders."
+					},
+					"vzfiletemplates.userTemplateVariables": {
+						"type": "object",
+						"default": {},
+						"description": "User defined template variables. Defined as {'varName':'value'}"
+					},
+					"vzfiletemplates.pathConversion": {
+						"type": "string",
+						"enum": [
+							"win32",
+							"posix",
+							"leave"
+						],
+						"default": "leave",
+						"description": "How to convert paths in templates substitutions - 'posix', with '/' char as separator or 'win32' with '\\'. Value - 'leave' - will do nothing with paths"
+					},
+					"vzfiletemplates.customVariablesConstructor": {
+						"type": "string",
+						"default": "",
+						"description": "Path to javascript file, which will create the custom variables"
+					},
+					"vzfiletemplates.defaultProjectsFolder": {
+						"type": "string",
+						"default": "",
+						"description": "Path do default folder displayed in template selector when 'New Project' command is invoked and no folder is opened in Visual Studio"
+					}
+				}
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.21",
+		"@types/node": "^8.10.25",
+		"@types/mocha": "^2.2.42"
+	},
+	"__metadata": {
+		"id": "80cd9f98-30d4-44a6-8b34-eb3ff9639754",
+		"publisherId": "b7408fd5-b0ed-48e5-81b2-f0fe293e82eb",
+		"publisherDisplayName": "Visual Zoran"
+	}
+}

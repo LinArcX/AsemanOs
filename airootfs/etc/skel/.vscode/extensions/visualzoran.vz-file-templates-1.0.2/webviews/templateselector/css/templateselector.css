@@ -1,0 +1,211 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#main {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: hidden;
+}
+#header {
+    flex: 0 0 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#title {
+    margin: 0px 10px;
+    font-size: 20pt;
+    color: var(--vscode-panelTitle-activeForeground);
+}
+#footer {
+    flex: 0 0 60px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+#footer button {
+    margin: 3px 6px 3px 0px;
+    padding: 3px 4px 4px 4px;
+    width: 80px;
+}
+#wizard {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+#content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    overflow: hidden;
+}
+#categories {
+    flex: 0 0 200px;
+    margin: 2px;
+    border: 1px solid var(--vscode-panel-border);
+    overflow: auto;
+}
+#templates {
+    flex: 1 1 auto;
+    margin: 2px;
+    border: 1px solid var(--vscode-panel-border);
+    overflow: auto;
+}
+#description {
+    flex: 0 0 200px;
+    margin: 2px;
+    border: 1px solid var(--vscode-panel-border);
+    overflow: auto;
+}
+#inputarea {
+    flex: 0 1 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+}
+.inputrow {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.rinputrow {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.inputrow button {
+    margin: 3px 6px 3px 0px;
+    padding: 3px 4px 4px 4px;
+    width: 80px;
+}
+
+.fldcaption {
+    flex: 0 0 70px;
+    padding: 2px 8px;
+    display: flex;
+    text-align: right;
+}
+
+.fldval {
+    flex: 1 1 auto;
+    padding: 2px;
+    display: flex;
+    overflow: hidden;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.fldopt {
+    padding: 2px;
+    overflow: hidden;
+    overflow: hidden;
+}
+.fldopt .label {
+    padding: 2px;
+}
+.fldopt .checkbox {
+    vertical-align: middle;
+}
+
+.category {
+    margin : 0;
+    padding : 2px;
+    font-weight: bold;
+}
+.fldval input {
+    flex: 1 1 auto;
+    margin-right: 5px;
+    background: var(--vscode-input-background);
+    border: 1px solid var(--vscode-panel-border);
+    color: var(--vscode-input-foreground);
+    padding: 2px;
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);    
+    font-family: var(--font-family);
+}
+
+.template {
+    margin : 0;
+    padding : 2px;
+    cursor: default;
+}
+.template .icon {
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    display: inline;
+}
+.template .desc {
+    display: inline;
+    cursor: default;
+    font-size:12px;
+    padding: 6px;
+    vertical-align: middle;
+}
+
+.template .icon .lighticon, .template .icon .darkicon {
+    width:24px;
+    height:24px;
+    margin:0;
+    padding: 0;
+    border: 0px none #000000;
+    vertical-align: middle;
+}
+
+.catlist {
+    margin: 0;
+    padding: 0;
+}
+.cat {
+    margin: 0;
+    padding: 0;
+}
+.catname {
+    padding: 2px;
+    cursor: default;
+}
+
+.selected {
+    background-color: var(--vscode-list-activeSelectionBackground);
+    color: var(--vscode-list-activeSelectionForeground);
+}
+.button {
+    background-color: var(--vscode-button-background);
+    color: var(--vscode-button-foreground);
+    border: 0px solid var(--vscode-panel-border);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);    
+    font-family: var(--font-family);
+    padding:5px;
+}
+.button:hover {
+    background-color: var(--vscode-button-hoverBackground);
+}
+
+.vscode-dark .template .icon .lighticon {
+    display: none;
+}
+
+.vscode-light .template .icon .darkicon, .vscode-high-contrast .template .icon .darkicon {
+    display: none;
+}

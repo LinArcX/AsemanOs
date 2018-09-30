@@ -1,0 +1,21 @@
+pane	0	0	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Other/Blogit	1	zsh	:
+pane	0	1	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Android/Projects/Tarjoman	1	zsh	:
+pane	0	2	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Taghvim	1	zsh	:
+pane	0	3	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Gnulium	1	zsh	:
+pane	0	4	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Taghvim/Installer/Windwos	1	zsh	:
+pane	0	5	:zsh	0	:-	0	:/mnt/E/Downloads/Video/Wt	1	zsh	:
+pane	0	6	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/PHP/MyBlog	1	zsh	:
+pane	0	7	:zsh	1	:*	0	:/home/linarcx	1	zsh	:
+pane	1	0	:zsh	1	:*	0	:/home/linarcx	1	zsh	:
+pane	2	0	:zsh	1	:*	0	:/home/linarcx	1	zsh	:
+window	0	0	0	:	ca3e,151x38,0,0,1
+window	0	1	0	:	ca3f,151x38,0,0,2
+window	0	2	0	:	ca40,151x38,0,0,3
+window	0	3	0	:	ca41,151x38,0,0,4
+window	0	4	0	:	ca42,151x38,0,0,5
+window	0	5	0	:-	ca43,151x38,0,0,6
+window	0	6	0	:	ca44,151x38,0,0,7
+window	0	7	1	:*	ca45,151x38,0,0,8
+window	1	0	1	:*	ca46,151x38,0,0,9
+window	2	0	1	:*	654f,151x38,0,0,10
+state	0	2
