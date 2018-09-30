@@ -18,6 +18,9 @@ And many more. See full list of packages:
 
 Tip: Code apdopted from the [pacbang-iso](https://github.com/CarlDuff/pacbang-iso)
 
+## Download
+You can download the __.iso__ file from [here](https://sourceforge.net/projects/asemanos/files/AsemanOS-2018.07.22-x86_64.tar.7z/download).
+
 ## Customization
 You can clone the repo, Extract it somewhere in your local system and start to customize it:)
 finally to see changes, build it from terminal:
