@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Aseman.OS](https://asemanos.gitlab.io/)
 An arch-based distro with these features:
 
@@ -15,3 +16,7 @@ Clone the repo, Extract it somewhere in your system and:
 sudo git clone https://gitlab.com/AsemanOS/AsemanOS && cd /home/asemanos/
 ./build.sh -v
 ```
+=======
+# AsemanOs
+Source Code of Aseman Os
+>>>>>>> bab6dc35a5e09dd321cdb1cc008a9dccfdd78377
