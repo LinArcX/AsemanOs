@@ -7,7 +7,7 @@
 </h1>
 
 ## Description
-A minimal arch-based distribution with gnome desktop! [website](https://asemanos.gitlab.io/)
+A minimal arch-based distribution with gnome desktop!
 
 ## Features
 * Linux Lts embeded.
